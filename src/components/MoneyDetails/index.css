@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.balance-card {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  background-color: #ecfccb;
+  border-radius: 10px;
+  border: 1px solid #84cc16;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.income-card {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  background-color: #cffafe;
+  border-radius: 10px;
+  border: 1px solid #06b6d4;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.expenses-card {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  background-color: #ede9fe;
+  border-radius: 10px;
+  border: 1px solid #7c3aed;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.balance-income-exp-images {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.balance-text {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #000000;
+}
+
+.rupees {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #000000;
+  margin-top: -15px;
+}
+
+.span-element-amount {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #000000;
+}
