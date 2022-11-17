@@ -1,11 +1,11 @@
 import './index.css'
 
 const MoneyDetails = props => {
-  const {incomeDetails} = props
+  const {balanceAmount, incomeAmount, expensesAmount} = props
 
   return (
     <>
-      <li className="balance-card">
+      <div className="balance-card">
         <div>
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png"
@@ -16,11 +16,11 @@ const MoneyDetails = props => {
         <div className="card">
           <p className="balance-text">Your Balance</p>
           <p className="rupees">
-            Rs <span className="span-element-amount">4000</span>
+            Rs <span className="span-element-amount">{balanceAmount}</span>
           </p>
         </div>
-      </li>
-      <li className="income-card">
+      </div>
+      <div className="income-card">
         <div>
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png"
@@ -31,11 +31,11 @@ const MoneyDetails = props => {
         <div className="card">
           <p className="balance-text">Your Income</p>
           <p className="rupees">
-            Rs <span className="span-element-amount">4000</span>
+            Rs <span className="span-element-amount">{incomeAmount}</span>
           </p>
         </div>
-      </li>
-      <li className="expenses-card">
+      </div>
+      <div className="expenses-card">
         <div>
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png"
@@ -46,10 +46,10 @@ const MoneyDetails = props => {
         <div className="card">
           <p className="balance-text">Your Expenses</p>
           <p className="rupees">
-            Rs <span className="span-element-amount">4000</span>
+            Rs <span className="span-element-amount">{expensesAmount}</span>
           </p>
         </div>
-      </li>
+      </div>
     </>
   )
 }
